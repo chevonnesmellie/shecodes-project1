@@ -1,0 +1,125 @@
+body {
+  margin-top: 40px;
+}
+
+.weather-app {
+  border: 1px solid #e3e6e8;
+  border-radius: 20px;
+  padding: 20px;
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.app-title {
+  position: relative;
+  left: 20px;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+form {
+  position: relative;
+  left: 20px;
+}
+
+.search-result {
+  list-style: none;
+}
+
+.current-time {
+  position: relative;
+  font-size: 16px;
+  left: -6px;
+}
+
+.city {
+  position: relative;
+  top: 5px;
+  left: -10px;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+.country {
+  position: relative;
+  top: -4px;
+  left: -5px;
+  font-size: 22px;
+  font-family: "Raleway", sans-serif;
+}
+
+.weather-description {
+  position: relative;
+  left: 100px;
+  top: 23px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#weather-description {
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.current-temp {
+  position: relative;
+  top: 15px;
+  font-size: 44px;
+}
+
+.uom {
+  position: relative;
+  top: -22px;
+  font-size: 20px;
+}
+
+.celsius,
+.farenheit {
+  text-decoration: none;
+}
+
+.celsius:hover {
+  color: red;
+}
+
+.farenheit:hover {
+  color: red;
+}
+
+.forecast {
+  margin: 20px 0;
+}
+
+.day-title {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.day-temp {
+  text-align: center;
+  font-size: 20px;
+}
+
+.day-emoji {
+  text-align: center;
+  font-size: 35px;
+}
+
+footer {
+  text-align: center;
+  margin: 20px;
+  font-family: "Raleway", sans-serif;
+}
